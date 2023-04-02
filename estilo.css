@@ -1,0 +1,24 @@
+body{
+    background-image: linear-gradient(55deg,#08172E, #15253f);
+    color: white;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    margin:auto;
+    padding: 20px;
+    text-align: center;
+}
+
+strong{
+    color: #fa8907;
+}
+
+strong:hover{
+    color: #f3a041ee;
+}
+
+.sobre{
+    text-align: justify;
+    background-color: #08172E;
+    box-shadow: 10px 8px 8px black;
+    padding: 15px;
+}
