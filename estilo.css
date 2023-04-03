@@ -51,3 +51,20 @@ ul{
     border-radius: 20px;    
     word-break: break-all;
  }
+
+.cv{
+background-color: #fa8907;
+color: white;
+padding: 15px;
+border-radius: 100px;
+text-decoration: none;
+font-weight: 600;
+}
+
+.cv:visited{
+color: white;
+}
+
+.cv:hover{
+color: black;
+}
