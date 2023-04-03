@@ -21,4 +21,34 @@ strong:hover{
     background-color: #08172E;
     box-shadow: 10px 8px 8px black;
     padding: 15px;
+    border-radius: 20px;
 }
+
+main{
+    width: 75%;
+    margin: auto;
+}
+
+a{
+    color: #fa8907;
+}
+
+a:visited
+{
+    color:#f3a041ee;
+}
+
+a:hover{
+    color: burlywood;
+}
+
+ul{
+    text-align: left;
+    background-color: #08172E;
+    box-shadow: 10px 8px 8px black;
+    padding-left:-5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+ }
