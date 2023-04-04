@@ -68,3 +68,8 @@ color: white;
 .cv:hover{
 color: black;
 }
+
+.foto_perfil{
+    padding-top: 100px;
+    margin: auto;
+}
