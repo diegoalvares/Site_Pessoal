@@ -30,6 +30,7 @@ main{
 
 a{
     color: #fa8907;
+    text-decoration: none;
 }
 
 a:visited
@@ -52,24 +53,17 @@ ul{
     word-break: break-all;
  }
 
-.cv{
-background-color: #fa8907;
+nav{
+background-color: #08172E;
+box-shadow: 10px 8px 8px black;
 color: white;
 padding: 15px;
-border-radius: 100px;
-text-decoration: none;
-font-weight: 600;
-}
-
-.cv:visited{
-color: white;
-}
-
-.cv:hover{
-color: black;
+font-weight: 500;
+position: fixed;
+width: 65%;
 }
 
 .foto_perfil{
-    padding-top: 100px;
+    padding-top: 170px;
     margin: auto;
 }
