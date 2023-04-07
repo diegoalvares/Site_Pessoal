@@ -11,6 +11,14 @@ h1{
     font-size: 50px;
 }
 
+h2{
+    font-size: 40px;
+    background-color: #fa8907;
+    border-radius: 20px 20px 0px 0px;
+    margin-top: -10px;
+    text-shadow: 5px 5px 20px black;
+}
+
 strong{
     color: #fa8907;
 }
@@ -23,13 +31,15 @@ strong:hover{
     text-align: justify;
     background-color: #08172E;
     box-shadow: 10px 8px 8px black;
+    border-radius: 0px 0px 20px 20px;
     padding: 15px;
-    border-radius: 20px;
+    margin-top: -34px; 
 }
 
 main{
     width: 65%;
     margin: auto;
+    text-shadow: 5px 5px 20px black;
 }
 
 a{
@@ -53,8 +63,9 @@ ul{
     padding-left:-5px;
     padding-top: 20px;
     padding-bottom: 20px;
-    border-radius: 20px;    
+    border-radius: 0px 0px 20px 20px;   
     word-break: break-all;
+    margin-top: -34px;
  }
 
 nav{
