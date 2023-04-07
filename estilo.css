@@ -7,6 +7,10 @@ body{
     text-align: center;
 }
 
+h1{
+    font-size: 50px;
+}
+
 strong{
     color: #fa8907;
 }
@@ -60,10 +64,11 @@ color: white;
 padding: 15px;
 font-weight: 500;
 position: fixed;
-width: 65%;
+width: 63.5%;
 }
 
 .foto_perfil{
     margin: auto;
     padding-top: 150px;
+    width: 300px;
 }
