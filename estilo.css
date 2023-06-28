@@ -3,9 +3,10 @@ body{
     color: white;
     font-size: 35px;
     font-family: 'Times New Roman', Times, serif;
-    margin:auto;
     text-align: center;
+    margin: auto;
 }
+
 
 h1{
     font-size: 50px;
@@ -70,13 +71,14 @@ ul{
  }
 
 nav{
-background-color: #08172E;
-box-shadow: 10px 8px 8px black;
-color: white;
-padding: 15px;
-font-weight: 500;
-position: fixed;
-width: 63.5%;
+    background-color: #08172E;
+    box-shadow: 10px 8px 8px black;
+    color: white;
+    padding: 15px;
+    font-weight: 500;
+    position: fixed;
+    width: 63.5%;
+    margin: center;
 }
 
 .foto_perfil{
