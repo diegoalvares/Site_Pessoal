@@ -1,15 +1,15 @@
-#projeto{
+#linha1{
     margin-bottom: 220px;
     display: flex;
     justify-content: space-between;
 }
 
-#linha, #linha2{
-    background: linear-gradient(90deg,orange 30%, white, #213c66 80%);
-    width: 200px;
-    height: 5px;
+.linha{
+    background: linear-gradient(90deg,orange 30%, white, #2960b8 80%);
+    width: 250px;
+    height: 3px;
     margin: auto;
-    margin-top: -20px;
+    margin-top: -30px;
 }
 
 .proj{
@@ -21,13 +21,22 @@
     box-shadow: rgb(255, 255, 255) 1px 1px 10px;
 }
 
-.proj:hover{
-    border-radius: 20px;
+.proj>img{
     width: 250px;
-    height: 250px;
-    margin: 20px;
-    padding: 20px;
-    box-shadow: rgb(255, 255, 255) 1px 1px 10px;
+}
+
+.proj:hover{
+    transition-duration: 0.3s;
+    cursor: pointer;
+    width: 500px;
+    height: 400px;
+}
+
+.proj:hover img{
+    transition-duration: 0.3s;
+    cursor: pointer;
+    width: 500px;
+    height: 300px;
 }
 
 .proj>h4{
@@ -35,12 +44,26 @@
     font-size: 30px;
 }
 
-.proj>hr{
-    margin-top: 10px;
-    font-size: 30px;
-}
-
 .proj>p{
     margin-top: 10px;
-    font-size: 25px;
+    font-size: 20px;
+}
+
+.proj:hover h4{
+    transition-duration: 0.3s;
+    font-size: 40px;
+    cursor: pointer;
+    margin-bottom: 35px;
+}
+
+.proj:hover p{
+    transition-duration: 0.3s;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.proj:hover .linha{
+    transition-duration: 0.3s;
+    width: 500px;
+    height: 4px;
 }
