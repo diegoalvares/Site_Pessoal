@@ -1,0 +1,46 @@
+#projeto{
+    margin-bottom: 220px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#linha, #linha2{
+    background: linear-gradient(90deg,orange 30%, white, #213c66 80%);
+    width: 200px;
+    height: 5px;
+    margin: auto;
+    margin-top: -20px;
+}
+
+.proj{
+    border-radius: 20px;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: rgb(255, 255, 255) 1px 1px 10px;
+}
+
+.proj:hover{
+    border-radius: 20px;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: rgb(255, 255, 255) 1px 1px 10px;
+}
+
+.proj>h4{
+    margin-top: 0px;
+    font-size: 30px;
+}
+
+.proj>hr{
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.proj>p{
+    margin-top: 10px;
+    font-size: 25px;
+}
