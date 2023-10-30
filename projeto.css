@@ -1,7 +1,12 @@
 #linha1{
-    margin-bottom: 220px;
+    margin-bottom: 250px;
     display: flex;
     justify-content: space-between;
+}
+
+
+#linha1>a{
+    color: white;
 }
 
 .linha{
@@ -15,7 +20,7 @@
 .proj{
     border-radius: 20px;
     width: 250px;
-    height: 250px;
+    height: 230px;
     margin: 20px;
     padding: 20px;
     box-shadow: rgb(255, 255, 255) 1px 1px 10px;
@@ -26,14 +31,14 @@
 }
 
 .proj:hover{
-    transition-duration: 0.3s;
+    transition-duration: 0.2s;
     cursor: pointer;
     width: 500px;
     height: 400px;
 }
 
 .proj:hover img{
-    transition-duration: 0.3s;
+    transition-duration: 0.4s;
     cursor: pointer;
     width: 500px;
     height: 300px;
@@ -50,20 +55,20 @@
 }
 
 .proj:hover h4{
-    transition-duration: 0.3s;
+    transition-duration: 0.6s;
     font-size: 40px;
     cursor: pointer;
     margin-bottom: 35px;
 }
 
 .proj:hover p{
-    transition-duration: 0.3s;
+    transition-duration: 0.6s;
     font-size: 30px;
     cursor: pointer;
 }
 
 .proj:hover .linha{
-    transition-duration: 0.3s;
+    transition-duration: 0.4s;
     width: 500px;
     height: 4px;
 }
