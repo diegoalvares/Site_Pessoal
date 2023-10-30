@@ -1,5 +1,5 @@
 #linha1{
-    margin-bottom: 250px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: space-between;
 }
@@ -19,7 +19,7 @@
 
 .proj{
     border-radius: 20px;
-    width: 250px;
+    width: 260px;
     height: 230px;
     margin: 20px;
     padding: 20px;
