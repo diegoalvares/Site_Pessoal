@@ -182,3 +182,55 @@
     }
     
 }
+
+@media (max-width: 450px){
+    #linha1{
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .proj:hover{
+        transition-duration: 0.2s;
+        cursor: pointer;
+        width: 200px;
+        height: 180px;
+    }
+    
+    .proj:hover img{
+        transition-duration: 0.4s;
+        cursor: pointer;
+        width: 200px;
+        height: 112px;
+    }
+    
+    .proj>h4{
+        margin-top: 0px;
+        font-size: 25px;
+    }
+    
+    .proj>p{
+        margin-top: 10px;
+        font-size: 19px;
+    }
+    
+    .proj:hover h4{
+        font-size: 25px;
+        cursor: pointer;
+        margin-bottom: 32.1px;
+    }
+    
+    .proj:hover p{
+        font-size: 19px;
+        cursor: pointer;
+    }
+    
+    .proj:hover .linha{
+        margin-top: -29px;
+        width: 200px;
+        height: 3px;
+    }
+
+    
+}
