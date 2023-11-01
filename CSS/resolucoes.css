@@ -184,6 +184,26 @@
 }
 
 @media (max-width: 450px){
+    /** resolução geral da página **/
+    body{
+        font-size: 21px;
+    }
+
+    h1{
+        font-size: 33px;
+    }
+    
+    h2{
+        font-size: 28px;
+        background-color: #fa8907;
+        border-radius: 20px 20px 0px 0px;
+        margin-top: -10px;
+        margin-bottom: 38px;
+        text-shadow: 5px 5px 20px black;
+        box-shadow: 9px 11px 6px  black;
+    }
+
+/** ----resolução da parte do projeto---- **/
     #linha1{
         margin-bottom: 50px;
         display: flex;
@@ -191,6 +211,9 @@
         flex-direction: column;
     }
 
+    .proj{
+        margin-top: 5px;
+    }
     .proj:hover{
         transition-duration: 0.2s;
         cursor: pointer;
