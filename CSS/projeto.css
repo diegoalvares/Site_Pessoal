@@ -7,6 +7,7 @@
 
 #linha1>a{
     color: white;
+    margin-top: 30px;
 }
 
 .linha{
@@ -21,9 +22,9 @@
     border-radius: 20px;
     width: 260px;
     height: 230px;
-    margin: 20px;
     padding: 20px;
     box-shadow: rgb(255, 255, 255) 1px 1px 10px;
+    margin: auto;
 }
 
 .proj>img{

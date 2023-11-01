@@ -209,8 +209,9 @@
         display: flex;
         justify-content: space-between;
         flex-direction: column;
+        margin-top: -40px;
     }
-
+    
     .proj{
         margin-top: 5px;
     }
@@ -255,5 +256,19 @@
         height: 3px;
     }
 
-    
+    .foto_perfil{
+        padding-top: 110px;
+        width: 250px;
+    }
+
+    nav{
+        background-color: #08172E;
+        box-shadow: 10px 8px 8px black;
+        color: white;
+        padding: 15px;
+        font-weight: 500;
+        position: fixed;
+        width: 55%;
+        margin: center;
+    }
 }
