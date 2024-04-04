@@ -6,11 +6,11 @@ strong{
     color: rgb(255, 231, 98);
     text-shadow: 1px 1px 1px black;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 strong:hover{
     color: rgb(73, 142, 247);
-    transition-duration: 0.5s;
 }
 
 #foto>img{
@@ -19,12 +19,11 @@ strong:hover{
     border-radius: 100%;
     background-color: rgb(255, 231, 98);
     padding: 5px;
-
+    transition: 0.5s;
 }
 
 #foto>img:hover{
     margin-top: 35px;
-    transition-duration: 0.5s;
     background-color: rgb(73, 142, 247);
     box-shadow: 1px 1px 20px black;
 }
