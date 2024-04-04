@@ -1,0 +1,79 @@
+div>h1{
+    font-size: 38px;
+}
+
+strong{
+    color: rgb(255, 231, 98);
+    text-shadow: 1px 1px 1px black;
+    cursor: pointer;
+}
+
+strong:hover{
+    color: rgb(73, 142, 247);
+    transition-duration: 0.5s;
+}
+
+#foto>img{
+    margin-top: 60px;
+    cursor: pointer;
+    border-radius: 100%;
+    background-color: rgb(255, 231, 98);
+    padding: 5px;
+
+}
+
+#foto>img:hover{
+    margin-top: 35px;
+    transition-duration: 0.5s;
+    background-color: rgb(73, 142, 247);
+    box-shadow: 1px 1px 20px black;
+}
+
+#sobre{
+    margin-top: 65px;
+    text-align: justify;
+    margin-right: 80px;
+}
+
+div>h2{
+    margin-top: 60px;
+    font-size: 35px;
+    text-align: center;
+    background-color: black;
+    border-radius: 10px;
+    padding: 15px;
+    padding-bottom: 25px;
+}
+
+div>p{
+    font-size: 25px;
+    margin-top: -18px;
+    padding: 20px;
+}
+
+#skils{
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    margin-top: -16px;
+    margin-left: 0px;
+    width: 635px;
+    position: absolute;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#skils>div>img{
+    width: 90px;
+    cursor: pointer;
+    margin-left: 55px;
+    transition: 0.5s;
+    padding: 10px;
+}
+
+#skils>div>img:hover{
+    margin-top: -8px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px black;
+    background-color: rgb(73, 142, 247);
+    box-shadow: 1px 1px 15px rgb(226, 214, 103);
+}
