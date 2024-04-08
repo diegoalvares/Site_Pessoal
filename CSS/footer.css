@@ -1,0 +1,34 @@
+footer{
+    margin-top: 140px;
+    width: 700px;
+    border-radius: 20px;
+}
+
+footer>h1{
+    background-color: black;
+    text-align: center;
+    margin: -15px;
+    padding: 15px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+footer>ul{
+    list-style: none;
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+a>img{
+    width: 90px;
+    cursor: pointer;
+    margin-left: 40px;
+    transition: 0.5s;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+a>img:hover{
+    background-color: rgb(255, 255, 255) ;
+    box-shadow: 1px 1px 15px rgb(0, 0, 0);
+}
