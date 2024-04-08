@@ -1,7 +1,13 @@
+header>h1{
+    text-align: center;
+    padding: 10px;
+    color: rgb(252, 211, 76);
+    text-shadow: 1px 1px 1px black;
+}
+
 header>nav{
     list-style: none;
     text-align: center;
-    padding: 15px;
     padding-bottom: 20px;
 }
 
@@ -27,7 +33,7 @@ header>nav>li>a{
     color: white;
 }
 
-header>nav>li:hover>a{
+header>nav>li>a:hover{
     text-decoration: none;
     color: rgb(252, 211, 76);
 }

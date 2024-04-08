@@ -1,0 +1,36 @@
+main{
+    width: 750px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px black;
+}
+
+ul{
+    list-style: circle;
+}
+
+ul>li{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    cursor: pointer;
+    padding: 20px;
+    transition: 1s;
+    font-size: 30px;
+}
+
+ul>li:hover{
+    color: rgb(252, 211, 76);
+}
+
+ul>li>a{
+    transition: 1s;
+    text-decoration: none;
+    color: white;
+}
+
+ul>li>a:hover{
+    text-decoration: none;
+    color: rgb(252, 211, 76);
+}
