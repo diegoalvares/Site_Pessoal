@@ -1,5 +1,5 @@
 main{
-    width: 750px;
+    width: 950px;
     margin: auto;
     margin-top: 40px;
     padding: 20px;
@@ -9,14 +9,15 @@ main{
 
 ul{
     list-style: circle;
+    width: 1200px;
 }
 
 ul>li{
     color: white;
     text-shadow: 1px 1px 1px black;
     cursor: pointer;
-    padding: 20px;
-    transition: 1s;
+    padding: 10px;
+    transition: 0.5s;
     font-size: 30px;
 }
 
