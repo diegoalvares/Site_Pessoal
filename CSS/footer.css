@@ -3,7 +3,7 @@ footer{
     width: 1120px;
     margin: auto;
     margin-top: 150px;
-
+    background-color: rgb(238, 238, 238);
 }
 
 footer>h1{
@@ -14,16 +14,16 @@ footer>h1{
 }
 
 footer>ul{
-    list-style: none;
-    padding: 20px;
-    padding-bottom: 30px;
     display: flex;
+    list-style: none;
+    padding: 10px;
+    padding-bottom: 30px;
 }
 
 a>img{
-    width: 110px;
+    width: 100px;
     cursor: pointer;
-    margin-left: 40px;
+    margin-left: 50px;
     transition: 0.5s;
     padding: 10px;
     border-radius: 10px;
