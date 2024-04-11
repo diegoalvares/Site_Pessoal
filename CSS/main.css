@@ -51,7 +51,7 @@ div>p{
 }
 
 #skils{
-    background-color: rgb(156, 156, 156);
+    background-color: rgb(197, 197, 197);
     padding-top: 15px;
     padding-bottom: 20px;
     margin-top: -16px;
@@ -72,6 +72,6 @@ div>p{
 #skils>div>img:hover{
     margin-top: -8px;
     border-radius: 10px;
-    background-color: rgb(226, 214, 103) ;
+    background-color: rgb(236, 226, 128) ;
     box-shadow: 1px 1px 15px rgb(0, 0, 0);
 }
