@@ -3,6 +3,7 @@ footer{
     width: 1120px;
     margin: auto;
     margin-top: 150px;
+
 }
 
 footer>h1{
@@ -16,16 +17,16 @@ footer>ul{
     list-style: none;
     padding: 20px;
     padding-bottom: 30px;
+    display: flex;
 }
 
 a>img{
-    width: 90px;
+    width: 110px;
     cursor: pointer;
     margin-left: 40px;
     transition: 0.5s;
     padding: 10px;
     border-radius: 10px;
-    margin-top: 20px;
 }
 
 a>img:hover{

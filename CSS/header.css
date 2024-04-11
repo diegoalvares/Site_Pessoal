@@ -11,8 +11,9 @@ header>nav>li{
     text-shadow: 1px 1px 1px black;
     cursor: pointer;
     margin: 15px;
-    font-size: 25px;
+    font-size: 28px;
     padding: 20px;
+    margin-right: 26px;
     transition: 1s;
 }
 
