@@ -18,7 +18,7 @@
     border-radius: 0px 0px 10px 10px;
 }
 
-.carousel-item >img{
+.carousel-item>img{
     margin: auto;
     margin-top: 40px;
     box-shadow: 1px 1px 25px rgb(0, 0, 0);
@@ -26,7 +26,13 @@
     border-radius: 10px;
 }
 
-h5, p{
+.carousel-item>h5{
+    font-size: 40px;
+    color: rgb(252, 211, 76);
+}
+
+.carousel-item>h5, p{
+    text-shadow: 1px 1px 1px black;
     text-align: center;
     padding: 30px;
     padding-bottom: 0px;
