@@ -1,8 +1,8 @@
 footer{
-    border-radius: 20px;
+    border-radius: 10px;
     width: 1120px;
     margin: auto;
-    margin-top: 150px;
+    margin-top: 50px;
     background-color: rgb(238, 238, 238);
 }
 
@@ -18,6 +18,7 @@ footer>ul{
     list-style: none;
     padding: 10px;
     padding-bottom: 30px;
+    margin-left: 200px;
 }
 
 a>img{
@@ -31,5 +32,5 @@ a>img{
 
 a>img:hover{
     background-color: rgb(90, 140, 216);
-    box-shadow: 1px 1px 20px black;
+    box-shadow: 1px 1px 10px black;
 }

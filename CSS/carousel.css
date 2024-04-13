@@ -4,19 +4,24 @@
     font-size: 35px;
     text-align: center;
     background-color: black;
-    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
     padding: 15px;
     padding-bottom: 25px;
-    width: 1130px;
+    width: 1110px;
 }
 
-#carousel-item1{
-    width: 600px;
+#carouselExampleIndicators{
+    width: 1110px;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 0px;
+    padding-bottom: 60px;
+    border-radius: 0px 0px 10px 10px;
 }
 
-div>h5{
-    margin-top: 410px;
-    color: aqua;
+.carousel-item >img{
+    margin: auto;
+    margin-top: 40px;
+    box-shadow: 1px 1px 25px rgb(0, 0, 0);
+    width: 700px;
+    border-radius: 10px;
 }
