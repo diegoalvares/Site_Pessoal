@@ -12,8 +12,9 @@ header>nav>li{
     cursor: pointer;
     margin: 15px;
     font-size: 28px;
-    padding: 20px;
-    margin-right: 26px;
+    padding: 25px;
+    margin-left: 42px;
+    margin-right: 38px;
     transition: 1s;
 }
 
