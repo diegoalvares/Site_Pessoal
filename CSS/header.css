@@ -11,10 +11,9 @@ header>nav>li{
     text-shadow: 1px 1px 1px black;
     cursor: pointer;
     margin: 15px;
-    font-size: 28px;
-    padding: 25px;
-    margin-left: 42px;
-    margin-right: 38px;
+    font-size: 25px;
+    padding: 20px;
+    margin-right: 20px;
     transition: 1s;
 }
 
@@ -32,4 +31,20 @@ header>nav>li>a{
 header>nav>li:hover>a{
     text-decoration: none;
     color: rgb(252, 211, 76);
+}
+
+header>nav>li>img{
+    width: 45px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+
+header>nav>#baixar>a>img{
+    width: 45px;
+    margin-right: 10px;
+}
+
+header>nav>li>a>img{
+    width: 60px;
+    margin-right: 20px;
 }

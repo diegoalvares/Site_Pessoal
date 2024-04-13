@@ -21,7 +21,7 @@ footer>ul{
     margin-left: 200px;
 }
 
-a>img{
+footer>ul>li>a>img{
     width: 100px;
     cursor: pointer;
     margin-left: 50px;
@@ -30,7 +30,7 @@ a>img{
     border-radius: 10px;
 }
 
-a>img:hover{
+footer>ul>li>a>img:hover{
     background-color: rgb(90, 140, 216);
     box-shadow: 1px 1px 10px black;
 }
