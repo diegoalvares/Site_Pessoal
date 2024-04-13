@@ -47,4 +47,18 @@ header>nav>#baixar>a>img{
 header>nav>li>a>img{
     width: 60px;
     margin-right: 20px;
+    margin-top: -10px;
+}
+
+
+header>nav>#nav_projeto>a>img{
+    width: 60px;
+    margin-top: -10px;
+    margin-right: 10px;
+}
+
+header>nav>#nav_contato>a>img{
+    width: 60px;
+    margin-top: -10px;
+    margin-right: 10px;
 }
