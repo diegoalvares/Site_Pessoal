@@ -22,8 +22,13 @@
     margin: auto;
     margin-top: 40px;
     box-shadow: 1px 1px 25px rgb(0, 0, 0);
-    width: 700px;
+    width: 600px;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+#carouselExampleIndicators>div>#tela_login>img{
+    width: 710px;
 }
 
 .carousel-item>h5{
