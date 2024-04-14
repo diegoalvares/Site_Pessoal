@@ -18,7 +18,7 @@
     border-radius: 0px 0px 10px 10px;
 }
 
-.carousel-item>img{
+.carousel-item>a>img{
     margin: auto;
     margin-top: 40px;
     box-shadow: 1px 1px 25px rgb(0, 0, 0);
@@ -27,7 +27,7 @@
     cursor: pointer;
 }
 
-#carouselExampleIndicators>div>#tela_login>img{
+#carouselExampleIndicators>div>#tela_login>a>img{
     width: 710px;
 }
 
