@@ -1,0 +1,36 @@
+@media (min-width: 320px){
+    header>h1{
+        font-size: 28px;
+    }
+
+    main{
+        width: 280px;
+    }
+
+    ul{
+        width: 260px;
+    }
+    
+    ul>li{
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 1000px){
+    header>h1{
+        font-size: 50px;
+    }
+
+    main{
+        width: 1200px;
+        margin-bottom: 20px;
+    }
+
+    ul{
+        width: 1180px;
+    }
+    
+    ul>li{
+        font-size: 35px;
+    }
+}
