@@ -18,12 +18,11 @@
 
     #foto>img{
         margin-top: 230px;
-        margin-left: 70px;
-        width: 450px;
+        width: 550px;
     }
 
     div>h2{
-        margin-top: 540px;
+        margin-top: 640px;
         width: 1000px;
         margin-left: 40px;
         font-size: 40px;
@@ -66,3 +65,47 @@
     
 }
 
+
+@media (min-width: 320px){
+    #foto>img{
+        margin-left: 0px;
+    }
+
+    #skils>div>img{
+        width: 150px;
+        margin-left: 80px;
+        transition: 0.5s;
+    }
+
+    #projeto{
+        margin-top: 230px;
+    }
+
+    footer>ul>li>a>img{
+        width: 150px;
+        margin-left: -120px;
+        margin-right: 200px;
+        transition: 0.5s;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+}
+
+@media (min-width: 400px){
+    #foto>img{
+        margin-left: -40px;
+    }
+}
+
+@media (min-width: 480px){
+    #foto>img{
+        margin-left: -80px;
+    }
+}
+
+@media (min-width: 1200px){
+    #foto>img{
+        margin-left: 0px;
+    }
+}
