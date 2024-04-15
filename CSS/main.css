@@ -23,7 +23,6 @@ strong:hover{
 }
 
 #foto>img:hover{
-    margin-top: 35px;
     background-color: rgb(73, 142, 247);
     box-shadow: 1px 1px 20px black;
 }

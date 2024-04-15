@@ -1,0 +1,68 @@
+@media (max-width: 480px){
+    header>nav{
+        width: 1120px;
+        padding: 15px;
+    }
+    header>nav>li{
+        margin-right: 0px;
+        padding: 10px;
+        font-size: 27px;
+    }
+
+    div>h1{
+        width: 1000px;
+        text-align: center;
+        margin-left: 40px;
+        font-size: 50px;
+    }
+
+    #foto>img{
+        margin-top: 230px;
+        margin-left: 70px;
+        width: 450px;
+    }
+
+    div>h2{
+        margin-top: 540px;
+        width: 1000px;
+        margin-left: 40px;
+        font-size: 40px;
+    }
+    div>p{
+        width: 1000px;
+        margin-left: 40px;
+        font-size: 40px;
+    }
+
+    #skils{
+        width: 1000px;
+        margin-left: 40px;
+    }
+
+    #skils>div>img{
+        width: 100px;
+        cursor: pointer;
+        margin-left: 125px;
+        transition: 0.5s;
+        padding: 10px;
+    }
+    
+    #projeto{
+        width: 1010px;
+        margin-left: 50px;
+        font-size: 40px;
+    }
+
+    #carouselExampleIndicators{
+        width: 1010px;
+        margin-left: 50px;
+    }
+    
+    footer{
+        width: 1010px;
+        margin-left: 50px;
+        font-size: 40px;
+    }
+    
+}
+
