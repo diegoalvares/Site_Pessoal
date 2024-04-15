@@ -108,4 +108,15 @@
     #foto>img{
         margin-left: 0px;
     }
+
+    #skils>div>img{
+        width: 130px;
+        margin-left: 20px;
+    }
+
+    footer>ul>li>a>img{
+        width: 130px;
+        margin-left: -60px;
+        margin-right: 160px;
+    }
 }
