@@ -42,3 +42,7 @@
     padding: 30px;
     padding-bottom: 0px;
 }
+
+#carouselExampleIndicators>div>#formulario>a>img{
+    width: 808px;
+}
