@@ -4,148 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!---------------LINKS CSS INDEX E BOOTSTRAP------------------------>
+    <!--LINKS CSS FONTE------------------------>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <!--------------------------------------->
+
+    <!--LINKS CSS GERAL--------------------->
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/header.css">
     <link rel="stylesheet" href="CSS/main.css">
-    <link rel="stylesheet" href="CSS/footer.css">
-    <link rel="stylesheet" href="CSS/carousel.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <!------------------------------------------------------------------>
+    <!----------------------------------->
 
-    <!-----------------------RESOLUÇÕES MOBILE--------------------------->
-    
-    <link rel="stylesheet" href="RESOLUCOES/mobile.css">
-    <!------------------------------------------------------------------>
-
-    <title>Diego Alvares de Macedo - Portifólio</title>
+    <title>Portifólio - Diego Alvares</title>
 </head>
-<body class="bg-secondary">
-    <header class="bg-dark">
-        <nav class="bg-dark">
-            <li id="nav_projeto">
-                <a href="#projeto">
-                    <img src="icones/projeto.png" alt="icone projeto">Projetos
-                </a>
-            </li>
-            <li id="nav_contato">
-                <a href="#contato">
-                    <img src="icones/contato.png" alt="icone contato">Contatos
-                </a>
-            </li>
-            <li id="baixar">
-                <a href="Currículo - Diego Alvares de Macedo.pdf" download="Currículo - Diego Alvares de Macedo" target="_blank">
-                    <img src="icones/baixar.png" alt="icone baixar">Download CV
-                </a>
-            </li>
-            <li>
-                <a href="atribuicoes.html">
-                    <img src="icones/atribuir.png" alt="imagem atribuir">Atribuições dos ícones
-                </a>
-            </li>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Projetos</a></li>
+                <li><a href="">Sobre Mim</a></li>
+                <li><a href="">Habilidades</a></li>
+                <li><a href="">Download CV</a></li>  
+            </ul>
         </nav>
     </header>
 
     <main>
         <div class="container">
-            <div class="row">
-                <div class="col-7" id="sobre">
-                    <h1>Olá, me chamo <strong> Diego Avares de Macedo</strong> e seja bem-vindo ao meu portifólio!
-                    </h1>
+            <section id="apresentacao">
+                <h1>Olá! Seja Bem-vindo!<br> Me Chamo <strong>Diego Alvares</strong> <br>e sou <strong>Web Developer</strong>.</h1>
+            </section>
 
-                    <h2>Sobre Mim</h2>
-
-                    <p class="bg-dark">
-                        Sou um <strong>Web Developer</strong> especializado em <strong>HTML</strong>, <strong>CSS</strong>, 
-                        <strong>JAVASCRIPT</strong> e <strong>BOOTSTRAP</strong>.
-                    </p>
-                </div>
-
-                <div class="col-1" id="foto">
-                    <img src="Imagens/foto.png" alt="">
-                </div>
-            </div>
-            
-            <!-------ÍCONES SKILS---------->
-            <div class="row" id="skils">
-                <div>
-                    <img src="icones/html-5.png" alt="">
-                </div>
-
-                <div>
-                    <img src="icones/css-3.png" alt="">
-                </div>
-
-                <div>
-                    <img src="icones/js.png" alt="">
-                </div>
-
-                <div>
-                    <img src="icones/bootstrap.png" alt="">
-                </div>
-            </div>
+            <section id="foto">
+                <img src="Imagens/foto.png" alt="">
+            </section>
         </div>
-        
-        <!------PROJETOS-------->
-        <h2 id="projeto">Projetos</h1>
 
-             <!--LISTA DE QUANTOS ITENS IRÁ NO CAROUSEL-->
-            <div id="carouselExampleIndicators" class="carousel slide bg-dark" data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>    
-                </ol>
+        <div class="container">
+            <section id="contato"></section>
 
-                 <!--ITENS DO CAROUSEL-->
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <a href="https://diegoalvares.github.io/devconvert/" target="_blank"><img class="d-block" src="Imagens/dev_convert.png" alt="Primeiro Slide"></a>
-                    <h5>Dev_Convert</h5>
-                    <p>Converta de Dólar, Euro ou Iene para Real.</p>
-                  </div>
+            <section id="haibilidades"></section>
 
-                  <div class="carousel-item" id="tela_login">
-                    <a href="https://diegoalvares.github.io/tela_login/" target="_blank"><img class="d-block" src="Imagens/tela_login.png" alt="Segundo Slide"></a>
-                    <h5>Tela de Login</h5>
-                    <p>Layout de uma tela de login.</p>
-                  </div>
-
-                  <div class="carousel-item" id="formulario">
-                    <a href="https://diegoalvares.github.io/formulario/" target="_blank"><img class="d-block" src="Imagens/formulario.png" alt="Terceiro Slide"></a>
-                    <h5>Formulário</h5>
-                    <p>Exemplo de Página de cadastro.</p>
-                  </div>
-
-                <!--CONTROLES DO CAROUSEL-->
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Anterior</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Próximo</span>
-                </a>
-              </div>
         </div>
+
+        <div class="container">
+            <section id="cards">
+
+            </section>
+
+        </div>
+
+        <footer>
+            <p>Site criado e desenvolvido por Diego Alvares de Macedo&COPY;.</p>
+        </footer>
+
     </main>
-    
-    <!--CONTATOS-->
-    <footer id="contato">
-        <h1>Contatos</h1>
-        <ul>
-            <li><a href="https://www.facebook.com/profile.php?id=61557989793946" target="_blank"><img src="icones/facebook.png" alt="facebook icone"></a></li>
-
-            <li><a href="https://www.linkedin.com/in/diego-alvares-de-macedo-36a3141ba/" target="_blank"><img src="icones/linkedin.png" alt="linkedin icone"></a></li>
-
-            <li><a href="https://github.com/diegoalvares" target="_blank"><img src="icones/github.png" alt="linkedin icone"></a></li>
-
-            <li><a href="https://www.instagram.com/diego_alvares_de_macedo/" target="_blank"><img src="icones/instagram.png" alt="linkedin icone"></a></li>
-        </ul>
-    </footer>
 </body>
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </html>

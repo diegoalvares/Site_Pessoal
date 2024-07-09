@@ -1,64 +1,22 @@
-header>nav{
+header>nav>ul{
+    display: flex;
     list-style: none;
-    text-align: center;
     padding: 15px;
-    padding-bottom: 20px;
+    font-size: 11px;
+    justify-content: end;
 }
 
-header>nav>li{
-    display: inline;
-    color: white;
-    text-shadow: 1px 1px 1px black;
-    cursor: pointer;
-    margin: 15px;
-    font-size: 25px;
-    padding: 20px;
+header>nav>ul>li{
     margin-right: 20px;
-    transition: 1s;
 }
 
-header>nav>li:hover{
-    color: rgb(252, 211, 76);
-    background-color: rgb(122, 122, 122);
-}
 
-header>nav>li>a{
-    transition: 1s;
+header>nav>ul>li>a{
     text-decoration: none;
-    color: white;
+    color: aliceblue;
+    transition: 2s;
 }
 
-header>nav>li:hover>a{
-    text-decoration: none;
-    color: rgb(252, 211, 76);
-}
-
-header>nav>li>img{
-    width: 45px;
-    margin-right: 10px;
-    padding-bottom: 10px;
-}
-
-header>nav>#baixar>a>img{
-    width: 45px;
-    margin-right: 10px;
-}
-
-header>nav>li>a>img{
-    width: 60px;
-    margin-right: 20px;
-    margin-top: -10px;
-}
-
-
-header>nav>#nav_projeto>a>img{
-    width: 60px;
-    margin-top: -10px;
-    margin-right: 10px;
-}
-
-header>nav>#nav_contato>a>img{
-    width: 60px;
-    margin-top: -10px;
-    margin-right: 10px;
+header>nav>ul>li>a:hover{
+    color: rgb(248, 178, 49);
 }

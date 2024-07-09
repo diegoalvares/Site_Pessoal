@@ -1,7 +1,11 @@
 *{
     margin: 0px;
     padding: 0px;
-    color: white;
-    text-shadow: 1px 1px 1px black;
     scroll-behavior: smooth;
+    font-family: "Open Sans";
+}
+
+body{
+    background: linear-gradient(to bottom, rgb(48, 48, 48), rgb(56, 56, 56));
+    height: 100vh;
 }
