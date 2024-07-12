@@ -1,10 +1,15 @@
 main{
     color: aliceblue;
-    margin: 70px;
+    margin: 60px;
+}
+
+#apresentacao{
+    width: 50VW;
+    margin-right: 100px;
 }
 
 strong{
-    color: rgb(255, 231, 98);
+    color: var(--amarelo);
     text-shadow: 1px 1px 1px black;
     cursor: pointer;
     transition: 0.5s;
@@ -21,11 +26,11 @@ strong:hover{
 #foto>img{
     cursor: pointer;
     border-radius: 100%;
-    background-color: rgb(255, 231, 98);
+    background-color: var(--amarelo);
     padding: 3px;
     transition: 0.5s;
-    width: 150px;
-    margin-left: 300px;
+    width: 180px;
+    margin-top: -40px;
 }
 
 #foto>img:hover{
@@ -33,4 +38,24 @@ strong:hover{
     box-shadow: 1px 1px 20px black;
 }
 
-se
+#curriculo{
+    background: linear-gradient(to bottom, var(--amarelo), rgb(255, 203, 92));
+    color: white;
+    text-align: center;
+    text-shadow: black 1px 1px 3px;
+    padding: 4px 32px 4px 32px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#container2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#sobre>h1{
+    margin-bottom: 30px;
+}
