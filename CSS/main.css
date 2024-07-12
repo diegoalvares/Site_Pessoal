@@ -43,11 +43,30 @@ strong:hover{
     color: white;
     text-align: center;
     text-shadow: black 1px 1px 3px;
-    padding: 4px 32px 4px 32px;
+    padding: 4px 16px 4px 16px;
     font-size: 18px;
     border-radius: 5px;
     cursor: pointer;
     margin-top: 10px;
+    font-weight: 500;
+}
+
+#contato{
+    background-color: white;
+    color: var(--amarelo);
+    text-align: center;
+    text-shadow: black 1px 1px 2px;
+    padding: 4px 36px 4px 36px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+#curriculo:hover, #contato:hover{
+    opacity: 0.95;
+    transition-duration: 0.5s;
 }
 
 #container2{
