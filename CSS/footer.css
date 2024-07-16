@@ -1,36 +1,8 @@
 footer{
-    border-radius: 10px;
-    width: 1120px;
     margin: auto;
     margin-top: 50px;
     background-color: rgb(238, 238, 238);
-}
-
-footer>h1{
-    background-color: black;
+    padding: 8px;
     text-align: center;
-    padding: 20px;
-    border-radius: 10px 10px 0px 0px;
-}
-
-footer>ul{
-    display: flex;
-    list-style: none;
-    padding: 10px;
-    padding-bottom: 30px;
-    margin-left: 200px;
-}
-
-footer>ul>li>a>img{
-    width: 100px;
-    cursor: pointer;
-    margin-left: 50px;
-    transition: 0.5s;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-footer>ul>li>a>img:hover{
-    background-color: rgb(90, 140, 216);
-    box-shadow: 1px 1px 10px black;
+    font-weight: 500;
 }
