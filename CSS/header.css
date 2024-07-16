@@ -2,13 +2,13 @@ header>nav>ul{
     display: flex;
     list-style: none;
     padding: 15px;
-    font-size: 11px;
+    font-size: 40px;
     justify-content: end;
-    margin-right: 30px;
+    margin-right: 100px;
 }
 
 header>nav>ul>li{
-    margin-right: 25px;
+    margin-right: 55px;
 }
 
 

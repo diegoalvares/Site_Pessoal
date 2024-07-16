@@ -1,11 +1,13 @@
 main{
     color: aliceblue;
-    margin: 60px;
+    margin: 100px 180px 100px 180px;
+    height: 78vh;
 }
 
 #apresentacao{
-    width: 50VW;
-    margin-right: 100px;
+    width: 40vw;
+    margin-right: 410px;
+    font-size: 40px;
 }
 
 strong{
@@ -29,13 +31,13 @@ strong:hover{
     background-color: var(--amarelo);
     padding: 3px;
     transition: 0.5s;
-    width: 180px;
+    width: 380px;
     margin-top: -40px;
 }
 
 #foto>img:hover{
     background-color: rgb(73, 142, 247);
-    box-shadow: 1px 1px 20px black;
+    box-shadow: 1px 1px 20px rgb(240, 252, 188);
 }
 
 #curriculo{
@@ -43,8 +45,8 @@ strong:hover{
     color: white;
     text-align: center;
     text-shadow: black 1px 1px 3px;
-    padding: 4px 16px 4px 16px;
-    font-size: 18px;
+    padding: 4px 56px 4px 56px;
+    font-size: 40px;
     border-radius: 5px;
     cursor: pointer;
     margin-top: 10px;
@@ -56,8 +58,8 @@ strong:hover{
     color: var(--amarelo);
     text-align: center;
     text-shadow: black 1px 1px 2px;
-    padding: 4px 36px 4px 36px;
-    font-size: 18px;
+    padding: 4px 106px 4px 106px;
+    font-size: 40px;
     border-radius: 5px;
     cursor: pointer;
     margin-top: 10px;
@@ -70,11 +72,16 @@ strong:hover{
 }
 
 #container2{
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 120px;
     text-align: center;
 }
 
-#sobre>h1{
+#container2>#sobre>h1{
+    font-size: 40px;
     margin-bottom: 30px;
+}
+
+#container2>#sobre>p{
+    font-size: 30px;
+    text-align: justify;
 }
