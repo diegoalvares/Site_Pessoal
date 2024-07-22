@@ -1,3 +1,16 @@
+header{
+    background-color: rgb(10, 10, 10);
+    display: flex;
+}
+
+#diego{
+    font-size: 40px;
+    color: aliceblue;
+    padding: 15px;
+    margin-right: 548px;
+    margin-left: 170px;
+}
+
 header>nav>ul{
     display: flex;
     list-style: none;

@@ -7,11 +7,12 @@
 
 body{
     background: linear-gradient(to bottom, rgb(48, 48, 48), rgb(56, 56, 56));
-    height: 100%;
+    height: 2000px;
 }
 
 :root{
     --amarelo: rgb(255, 231, 98);
+    --azul: rgb(73, 142, 247);
 }
 
 a{
