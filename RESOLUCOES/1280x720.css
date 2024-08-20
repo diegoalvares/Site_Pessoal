@@ -1,0 +1,15 @@
+@media (min-width: 1280px){
+    figure>img{
+        width: 150px;
+        margin-top: -40px;
+    }
+
+    input, a, button{
+        font-size: 25px;
+    }
+
+    footer{
+        margin-top: 14.5vh;
+
+    }
+}

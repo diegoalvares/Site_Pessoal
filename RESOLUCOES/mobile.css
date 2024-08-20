@@ -1,122 +1,29 @@
 @media (max-width: 480px){
-    header>nav{
-        width: 1120px;
-        padding: 15px;
-    }
-    header>nav>li{
-        margin-right: 0px;
-        padding: 10px;
-        font-size: 27px;
-    }
-
-    div>h1{
-        width: 1000px;
-        text-align: center;
-        margin-left: 40px;
-        font-size: 50px;
-    }
-
-    #foto>img{
-        margin-top: 230px;
-        width: 550px;
-    }
-
-    div>h2{
-        margin-top: 640px;
-        width: 1000px;
-        margin-left: 40px;
-        font-size: 40px;
-    }
-    div>p{
-        width: 1000px;
-        margin-left: 40px;
-        font-size: 40px;
-    }
-
-    #skils{
-        width: 1000px;
-        margin-left: 40px;
-    }
-
-    #skils>div>img{
-        width: 100px;
-        cursor: pointer;
-        margin-left: 125px;
-        transition: 0.5s;
-        padding: 10px;
-    }
     
-    #projeto{
-        width: 1010px;
-        margin-left: 50px;
-        font-size: 40px;
+    figure>img{
+        margin-top: 150px;
+        width: 350px;
+        margin-bottom: 60px;
     }
 
-    #carouselExampleIndicators{
-        width: 1010px;
-        margin-left: 50px;
+    input, button{
+        margin-top: 50px;
+        font-size: 60px;
+        margin-bottom: 20px;
     }
-    
+
+    a{
+        font-size: 60px;
+    }
+
     footer{
-        width: 1010px;
-        margin-left: 50px;
-        font-size: 40px;
-    }
-    
-}
-
-
-@media (min-width: 320px){
-    #foto>img{
-        margin-left: 0px;
+        margin-top: 98.5vh;
+        width: 985px;
+        font-size: 25px;
     }
 
-    #skils>div>img{
-        width: 150px;
-        margin-left: 80px;
-        transition: 0.5s;
-    }
-
-    #projeto{
-        margin-top: 230px;
-    }
-
-    footer>ul>li>a>img{
-        width: 150px;
-        margin-left: -120px;
-        margin-right: 200px;
-        transition: 0.5s;
-        padding: 10px;
-        border-radius: 10px;
-    }
-
-}
-
-@media (min-width: 400px){
-    #foto>img{
-        margin-left: -40px;
+    footer>p>a{
+        font-size: 25px;
     }
 }
 
-@media (min-width: 480px){
-    #foto>img{
-        margin-left: -80px;
-    }
-}
-
-@media (min-width: 1200px){
-    #foto>img{
-        margin-left: 0px;
-    }
-
-    #skils>div>img{
-        width: 130px;
-        margin-left: 20px;
-    }
-
-    footer>ul>li>a>img{
-        width: 130px;
-        margin-left: -60px;
-        margin-right: 160px;
-    }
-}
